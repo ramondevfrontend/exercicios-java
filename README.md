@@ -8,3 +8,10 @@ Conforme o andamento do curso , irei postando a minha evolução
 [IntelliJ](https://www.jetbrains.com/pt-br/idea/)
 |
 [Java Oracle](https://www.oracle.com/java/technologies/)
+
+
+Estrutura de Dados (Exemplo Pilhas):
+
+https://i.ibb.co/qC0cSZ7/pilhas.jpg
+
+https://i.ibb.co/SQTdPvF/pilhas2.jpg
