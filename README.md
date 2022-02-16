@@ -10,8 +10,6 @@ Conforme o andamento do curso , irei postando a minha evolução
 [Java Oracle](https://www.oracle.com/java/technologies/)
 
 
-Estrutura de Dados (Exemplo Pilhas):
+### Estrutura de Dados (Exemplo Pilhas):
 
-https://i.ibb.co/qC0cSZ7/pilhas.jpg
-
-https://i.ibb.co/SQTdPvF/pilhas2.jpg
+<img src="https://i.ibb.co/qC0cSZ7/pilhas.jpg" />
