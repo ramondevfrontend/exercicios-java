@@ -1,6 +1,6 @@
 # Repositório de exercícios Java
 
-Conforme o andamento do curso , irei postando a minha evolução
+Irei postando a minha evolução com java
 
 ### Links
 [Eclipse](https://www.eclipse.org/downloads/)
