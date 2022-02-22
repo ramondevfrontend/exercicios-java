@@ -25,7 +25,7 @@ public class fila {
                     break;
                 }
             }
-            return primeirono;
+            return primeirono.getObject();
 
         }
         return null;
@@ -44,7 +44,7 @@ public class fila {
                     break;
                 }
             }
-            return primeirono;
+            return primeirono.getObject();
 
         }
         return null;
@@ -64,7 +64,7 @@ public class fila {
 
         if(refnoentradafila != null) {
             while(true) {
-                stringretorno += "[{" + noauxiliar + "}]---->";
+                stringretorno += "[no{objeto=" + noauxiliar.getObject() + "}]---->";
                 if(noauxiliar.getRefno() != null ){
                     noauxiliar = noauxiliar.getRefno();
                 }else  {

@@ -2,7 +2,6 @@ package conceito.filas;
 
 public class no {
 
-
     private Object object;
     private  no refno;
 
@@ -14,6 +13,14 @@ public class no {
         this.refno = null;
         this.object = object;
 
+    }
+
+    public Object getObject() {
+        return object;
+    }
+
+    public void setObject(Object object) {
+        this.object = object;
     }
 
     public no getRefno() {

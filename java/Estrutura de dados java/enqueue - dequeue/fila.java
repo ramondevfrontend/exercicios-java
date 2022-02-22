@@ -63,7 +63,7 @@ public class fila {
 
         if(refnoentradafila != null) {
             while(true) {
-                stringretorno += "[{" + noauxiliar + "}]---->";
+                stringretorno += "[no{objeto=" + noauxiliar.getObject() + "}]---->";
                 if(noauxiliar.getRefno() != null ){
                     noauxiliar = noauxiliar.getRefno();
                 }else  {
