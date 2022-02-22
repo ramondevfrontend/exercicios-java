@@ -24,6 +24,7 @@ public class fila {
                     break;
                 }
             }
+            return  primeirono;
 
         }
         return null;
