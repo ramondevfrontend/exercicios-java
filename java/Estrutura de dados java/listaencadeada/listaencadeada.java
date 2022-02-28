@@ -38,7 +38,7 @@ public class listaencadeada<T> {
         no<T> noauxiliar = referenciaentrada;
         no<T> noretorno = null;
 
-        for (int i = 0; i < this.size()-1; i++) {
+        for (int i = 0; i <= index; i++) {
             noretorno = noauxiliar;
             noauxiliar = noauxiliar.getProximono();
         }
@@ -54,6 +54,8 @@ public class listaencadeada<T> {
         }
 
         no<T> noanterior = getno(index - 1);
+        noanterior.setProximono(nopivor.getProximono());
+        return nopivor.getConteudo();
 
     }
 
@@ -87,5 +89,17 @@ public class listaencadeada<T> {
 
     public boolean isEmpty() {
         return referenciaentrada == null ? true : false;
+    }
+
+    @Override
+    public String toString() {
+        String strretorno = "";
+        no<T> noauxiliar = referenciaentrada;
+        for(int i = 0; i < this.size(); i++) {
+            strretorno += "[no{conteudo=" + noauxiliar.getConteudo() + "}--->";
+            noauxiliar = noauxiliar.getProximono();
+        }
+        strretorno += "null";
+        return strretorno;
     }
 }
