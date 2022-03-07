@@ -16,10 +16,10 @@ public class main {
         System.out.println(minhalistaencadeada);
 
         minhalistaencadeada.remove(3);
-        System.out.println(minhalistaencadeada);
-
         minhalistaencadeada.add(4,"99");
+
         System.out.println(minhalistaencadeada);
+        System.out.println(minhalistaencadeada.get(3));
 
 
     }
