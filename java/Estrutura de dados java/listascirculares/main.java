@@ -16,6 +16,7 @@ public class main {
 
         minhalistacircular.add("c2");
         minhalistacircular.add("c3");
+        minhalistacircular.add("c4");
         System.out.print(minhalistacircular);
 /*
         System.out.print(minhalistacircular.get(0));

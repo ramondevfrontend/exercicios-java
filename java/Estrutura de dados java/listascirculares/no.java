@@ -30,11 +30,10 @@ public class no<T> {
         this.noProximo = noProximo;
     }
 
-    @Override
-    public String toString() {
+    @java.lang.Override
+    public java.lang.String toString() {
         return "no{" +
                 "conteudo=" + conteudo +
                 '}';
     }
-
 }
