@@ -1,7 +1,5 @@
 # Repositório de exercícios Java
 
-Irei postando a minha evolução com java
-
 ### Links
 [Eclipse](https://www.eclipse.org/downloads/)
 |
